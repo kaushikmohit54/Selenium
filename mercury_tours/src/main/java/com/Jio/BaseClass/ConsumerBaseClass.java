@@ -141,7 +141,7 @@ public class ConsumerBaseClass
 			//To capture screenshot path and store the path of the screenshot in the string "screenshotPath"
 			//We do pass the path captured by this mehtod in to the extent reports using "logger.addScreenCapture" method. 
 
-			//	String Scrnshot=TakeScreenshot.captuerScreenshot(driver,"TestCaseFailed");
+			
 			String screenshotPath = TakeScreenshot.captuerScreenshot(driver, result.getName());
 			//To add it in the extent report 
 
@@ -150,7 +150,7 @@ public class ConsumerBaseClass
 
 		}
 		else if(result.getStatus() == ITestResult.SKIP){
-			//logger.log(Status.SKIP, "Test Case Skipped is "+result.getName());
+			
 			logger1.log(Status.SKIP, MarkupHelper.createLabel(result.getName() + " - Test Case Skipped", ExtentColor.ORANGE)); 
 		} 
 		else if(result.getStatus() == ITestResult.SUCCESS)

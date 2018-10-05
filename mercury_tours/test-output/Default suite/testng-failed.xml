@@ -3,13 +3,20 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Login.BaseTest">
+      <class name="com.jio.Testcases.DashBoardTest">
         <methods>
-          <include name="login"/>
-          <include name="openBrowser"/>
-          <include name="closeBrowser"/>
+          <include name="DashBoardIntialize"/>
+          <include name="getResult"/>
+          <include name="SecondDashBoardPageTittleValidation"/>
+          <include name="MoveToTranscationHistoryPage"/>
+          <include name="DashBoardPageTittleValidation"/>
+          <include name="Last5TranscationTextValidation"/>
+          <include name="AccountBalanceTextValidation"/>
+          <include name="ReportSetup"/>
+          <include name="endReport"/>
+          <include name="Exit"/>
         </methods>
-      </class> <!-- Login.BaseTest -->
+      </class> <!-- com.jio.Testcases.DashBoardTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

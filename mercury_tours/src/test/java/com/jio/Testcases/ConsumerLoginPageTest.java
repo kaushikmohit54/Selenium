@@ -51,7 +51,7 @@ public class ConsumerLoginPageTest extends ConsumerBaseClass
 		logger1 = extent.createTest("Login Validation for Consumer Portal");
 		Con.ConsumerLogin();
 		logger.info("Consumer Login Validation is Sucesfull");
-		//Con.DashboardPage();
+		Con.DashboardPage();
 			
 	}
 	

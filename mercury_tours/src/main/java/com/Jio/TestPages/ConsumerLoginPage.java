@@ -44,13 +44,14 @@ public class ConsumerLoginPage extends ConsumerBaseClass
 		Password.sendKeys("Manish42#");
 		LoginButton.click();
 		
+		
 	}
 	
-	/*public DashBoardPage DashboardPage()
+	public DashBoardPage DashboardPage()
 	{
 		return new DashBoardPage();
 		
-	}*/
+	}
 	
 	
 	

@@ -1,74 +1,155 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="3" total="11" passed="8">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="1082" started-at="2018-10-03T10:26:16Z" finished-at="2018-10-03T10:26:17Z">
+  <suite name="Suite" duration-ms="6323" started-at="2018-10-05T10:10:27Z" finished-at="2018-10-05T10:10:34Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="1082" started-at="2018-10-03T10:26:16Z" finished-at="2018-10-03T10:26:17Z">
+    <test name="Test" duration-ms="6323" started-at="2018-10-05T10:10:27Z" finished-at="2018-10-05T10:10:34Z">
+      <class name="com.jio.Testcases.DashBoardTest">
+        <test-method status="PASS" signature="DashBoardIntialize()[pri:0, instance:com.jio.Testcases.DashBoardTest@43814d18]" name="DashBoardIntialize" is-config="true" duration-ms="3" started-at="2018-10-05T10:10:27Z" finished-at="2018-10-05T10:10:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DashBoardIntialize -->
+        <test-method status="PASS" signature="DashBoardPageTittleValidation()[pri:4, instance:com.jio.Testcases.DashBoardTest@43814d18]" name="DashBoardPageTittleValidation" duration-ms="5032" started-at="2018-10-05T10:10:28Z" description="Tittle Validation for Dashboard Page of Consumer Portal" finished-at="2018-10-05T10:10:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DashBoardPageTittleValidation -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.jio.Testcases.DashBoardTest@43814d18]" name="getResult" is-config="true" duration-ms="1" started-at="2018-10-05T10:10:33Z" finished-at="2018-10-05T10:10:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=DashBoardPageTittleValidation status=SUCCESS method=DashBoardTest.DashBoardPageTittleValidation()[pri:4, instance:com.jio.Testcases.DashBoardTest@43814d18] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="SecondDashBoardPageTittleValidation()[pri:5, instance:com.jio.Testcases.DashBoardTest@43814d18]" name="SecondDashBoardPageTittleValidation" duration-ms="62" started-at="2018-10-05T10:10:33Z" description="Second Tittle Validation for Dashboard Page of Consumer Portal" finished-at="2018-10-05T10:10:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondDashBoardPageTittleValidation -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.jio.Testcases.DashBoardTest@43814d18]" name="getResult" is-config="true" duration-ms="0" started-at="2018-10-05T10:10:33Z" finished-at="2018-10-05T10:10:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SecondDashBoardPageTittleValidation status=SUCCESS method=DashBoardTest.SecondDashBoardPageTittleValidation()[pri:5, instance:com.jio.Testcases.DashBoardTest@43814d18] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="AccountBalanceTextValidation()[pri:6, instance:com.jio.Testcases.DashBoardTest@43814d18]" name="AccountBalanceTextValidation" duration-ms="43" started-at="2018-10-05T10:10:33Z" description="Account Balance Text Validation on Dashboard Page of Consumer Portal" finished-at="2018-10-05T10:10:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccountBalanceTextValidation -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.jio.Testcases.DashBoardTest@43814d18]" name="getResult" is-config="true" duration-ms="1" started-at="2018-10-05T10:10:33Z" finished-at="2018-10-05T10:10:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AccountBalanceTextValidation status=SUCCESS method=DashBoardTest.AccountBalanceTextValidation()[pri:6, instance:com.jio.Testcases.DashBoardTest@43814d18] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="Last5TranscationTextValidation()[pri:7, instance:com.jio.Testcases.DashBoardTest@43814d18]" name="Last5TranscationTextValidation" duration-ms="39" started-at="2018-10-05T10:10:33Z" description="Last 5 Transcation text Validation for Dashboard Page of Consumer Portal" finished-at="2018-10-05T10:10:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Last5TranscationTextValidation -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.jio.Testcases.DashBoardTest@43814d18]" name="getResult" is-config="true" duration-ms="1" started-at="2018-10-05T10:10:33Z" finished-at="2018-10-05T10:10:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Last5TranscationTextValidation status=SUCCESS method=DashBoardTest.Last5TranscationTextValidation()[pri:7, instance:com.jio.Testcases.DashBoardTest@43814d18] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="MoveToTranscationHistoryPage()[pri:8, instance:com.jio.Testcases.DashBoardTest@43814d18]" name="MoveToTranscationHistoryPage" duration-ms="80" started-at="2018-10-05T10:10:33Z" description="Click On Transcation History Page" finished-at="2018-10-05T10:10:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MoveToTranscationHistoryPage -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.jio.Testcases.DashBoardTest@43814d18]" name="getResult" is-config="true" duration-ms="1" started-at="2018-10-05T10:10:33Z" finished-at="2018-10-05T10:10:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MoveToTranscationHistoryPage status=SUCCESS method=DashBoardTest.MoveToTranscationHistoryPage()[pri:8, instance:com.jio.Testcases.DashBoardTest@43814d18] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- com.jio.Testcases.DashBoardTest -->
       <class name="com.jio.Testcases.ConsumerLoginPageTest">
-        <test-method status="PASS" signature="ReportSetup()[pri:0, instance:com.jio.Testcases.ConsumerLoginPageTest@5bc79255]" name="ReportSetup" is-config="true" duration-ms="318" started-at="2018-10-03T10:26:09Z" finished-at="2018-10-03T10:26:09Z">
+        <test-method status="PASS" signature="ReportSetup()[pri:0, instance:com.jio.Testcases.ConsumerLoginPageTest@5ae63ade]" name="ReportSetup" is-config="true" duration-ms="141" started-at="2018-10-05T10:10:21Z" finished-at="2018-10-05T10:10:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ReportSetup -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.jio.Testcases.ConsumerLoginPageTest@5bc79255]" name="setup" is-config="true" duration-ms="7005" started-at="2018-10-03T10:26:09Z" depends-on-methods="com.Jio.BaseClass.ConsumerBaseClass.ReportSetup" finished-at="2018-10-03T10:26:16Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.jio.Testcases.ConsumerLoginPageTest@5ae63ade]" name="setup" is-config="true" duration-ms="6471" started-at="2018-10-05T10:10:21Z" depends-on-methods="com.Jio.BaseClass.ConsumerBaseClass.ReportSetup" finished-at="2018-10-05T10:10:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="ConsumerLogoTest()[pri:1, instance:com.jio.Testcases.ConsumerLoginPageTest@5bc79255]" name="ConsumerLogoTest" duration-ms="59" started-at="2018-10-03T10:26:16Z" description="Validation of Logo On Consumer Portal Home Page" finished-at="2018-10-03T10:26:16Z">
+        <test-method status="PASS" signature="ConsumerLogoTest()[pri:1, instance:com.jio.Testcases.ConsumerLoginPageTest@5ae63ade]" name="ConsumerLogoTest" duration-ms="52" started-at="2018-10-05T10:10:27Z" description="Validation of Logo On Consumer Portal Home Page" finished-at="2018-10-05T10:10:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConsumerLogoTest -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.jio.Testcases.ConsumerLoginPageTest@5bc79255]" name="getResult" is-config="true" duration-ms="8" started-at="2018-10-03T10:26:16Z" finished-at="2018-10-03T10:26:16Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.jio.Testcases.ConsumerLoginPageTest@5ae63ade]" name="getResult" is-config="true" duration-ms="9" started-at="2018-10-05T10:10:27Z" finished-at="2018-10-05T10:10:27Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ConsumerLogoTest status=SUCCESS method=ConsumerLoginPageTest.ConsumerLogoTest()[pri:1, instance:com.jio.Testcases.ConsumerLoginPageTest@5bc79255] output={null}]]]>
+                <![CDATA[[TestResult name=ConsumerLogoTest status=SUCCESS method=ConsumerLoginPageTest.ConsumerLogoTest()[pri:1, instance:com.jio.Testcases.ConsumerLoginPageTest@5ae63ade] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="ConsumerPortalTittle()[pri:2, instance:com.jio.Testcases.ConsumerLoginPageTest@5bc79255]" name="ConsumerPortalTittle" duration-ms="18" started-at="2018-10-03T10:26:16Z" description="Validation of Tittle On Consumer Portal Home Page" finished-at="2018-10-03T10:26:16Z">
+        <test-method status="PASS" signature="ConsumerPortalTittle()[pri:2, instance:com.jio.Testcases.ConsumerLoginPageTest@5ae63ade]" name="ConsumerPortalTittle" duration-ms="17" started-at="2018-10-05T10:10:27Z" description="Validation of Tittle On Consumer Portal Home Page" finished-at="2018-10-05T10:10:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConsumerPortalTittle -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.jio.Testcases.ConsumerLoginPageTest@5bc79255]" name="getResult" is-config="true" duration-ms="0" started-at="2018-10-03T10:26:16Z" finished-at="2018-10-03T10:26:16Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.jio.Testcases.ConsumerLoginPageTest@5ae63ade]" name="getResult" is-config="true" duration-ms="0" started-at="2018-10-05T10:10:27Z" finished-at="2018-10-05T10:10:27Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ConsumerPortalTittle status=SUCCESS method=ConsumerLoginPageTest.ConsumerPortalTittle()[pri:2, instance:com.jio.Testcases.ConsumerLoginPageTest@5bc79255] output={null}]]]>
+                <![CDATA[[TestResult name=ConsumerPortalTittle status=SUCCESS method=ConsumerLoginPageTest.ConsumerPortalTittle()[pri:2, instance:com.jio.Testcases.ConsumerLoginPageTest@5ae63ade] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="ConsumerLoginPortalTest()[pri:3, instance:com.jio.Testcases.ConsumerLoginPageTest@5bc79255]" name="ConsumerLoginPortalTest" duration-ms="290" started-at="2018-10-03T10:26:16Z" description="Login Validation for Consumer Portal" finished-at="2018-10-03T10:26:16Z">
+        <test-method status="PASS" signature="ConsumerLoginPortalTest()[pri:3, instance:com.jio.Testcases.ConsumerLoginPageTest@5ae63ade]" name="ConsumerLoginPortalTest" duration-ms="282" started-at="2018-10-05T10:10:27Z" description="Login Validation for Consumer Portal" finished-at="2018-10-05T10:10:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ConsumerLoginPortalTest -->
-        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.jio.Testcases.ConsumerLoginPageTest@5bc79255]" name="getResult" is-config="true" duration-ms="0" started-at="2018-10-03T10:26:16Z" finished-at="2018-10-03T10:26:16Z">
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.jio.Testcases.ConsumerLoginPageTest@5ae63ade]" name="getResult" is-config="true" duration-ms="1" started-at="2018-10-05T10:10:28Z" finished-at="2018-10-05T10:10:28Z">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=ConsumerLoginPortalTest status=SUCCESS method=ConsumerLoginPageTest.ConsumerLoginPortalTest()[pri:3, instance:com.jio.Testcases.ConsumerLoginPageTest@5bc79255] output={null}]]]>
+                <![CDATA[[TestResult name=ConsumerLoginPortalTest status=SUCCESS method=ConsumerLoginPageTest.ConsumerLoginPortalTest()[pri:3, instance:com.jio.Testcases.ConsumerLoginPageTest@5ae63ade] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method status="PASS" signature="Exit()[pri:0, instance:com.jio.Testcases.ConsumerLoginPageTest@5bc79255]" name="Exit" is-config="true" duration-ms="680" started-at="2018-10-03T10:26:16Z" finished-at="2018-10-03T10:26:17Z">
+        <test-method status="PASS" signature="Exit()[pri:0, instance:com.jio.Testcases.ConsumerLoginPageTest@5ae63ade]" name="Exit" is-config="true" duration-ms="671" started-at="2018-10-05T10:10:33Z" finished-at="2018-10-05T10:10:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Exit -->
-        <test-method status="PASS" signature="endReport()[pri:0, instance:com.jio.Testcases.ConsumerLoginPageTest@5bc79255]" name="endReport" is-config="true" duration-ms="305" started-at="2018-10-03T10:26:17Z" finished-at="2018-10-03T10:26:17Z">
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.jio.Testcases.ConsumerLoginPageTest@5ae63ade]" name="endReport" is-config="true" duration-ms="255" started-at="2018-10-05T10:10:34Z" finished-at="2018-10-05T10:10:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
       </class> <!-- com.jio.Testcases.ConsumerLoginPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
