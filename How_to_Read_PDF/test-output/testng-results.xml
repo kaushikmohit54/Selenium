@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1603" started-at="2018-10-30T05:36:14Z" finished-at="2018-10-30T05:36:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1603" started-at="2018-10-30T05:36:14Z" finished-at="2018-10-30T05:36:15Z">
+      <class name="pdf">
+        <test-method status="PASS" signature="pdfTest()[pri:0, instance:pdf@3532ec19]" name="pdfTest" duration-ms="1580" started-at="2018-10-30T05:36:14Z" finished-at="2018-10-30T05:36:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pdfTest -->
+      </class> <!-- pdf -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
