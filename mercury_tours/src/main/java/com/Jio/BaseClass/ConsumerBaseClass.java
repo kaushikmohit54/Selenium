@@ -39,7 +39,7 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 public class ConsumerBaseClass
 {
 
-	public static WebDriver driver;
+	public static WebDriver driver = null; 
 	public static Properties prop;
 	public static EventFiringWebDriver e_driver;
 	public static WebDriverEventListener eventListener;
@@ -87,7 +87,7 @@ public class ConsumerBaseClass
 	}
 
 
-	public static void initialization() throws MalformedURLException
+	public void initialization() throws MalformedURLException
 	{
 		String browserName = prop.getProperty("browser");
 
