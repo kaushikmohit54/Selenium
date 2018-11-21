@@ -1,0 +1,36 @@
+
+csquid:S1135V"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH˜RINFOZ
+CODE_SMELL
+dsquid:S1135’"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHRINFOZ
+CODE_SMELL
+ˆsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(œŒÛ„H„RMINORZ
+CODE_SMELL
+±squid:S1186H"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(—‡ÓØH’RCRITICALZ
+CODE_SMELL
+csquid:S1135P"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH‘RINFOZ
+CODE_SMELL
+csquid:S1135\"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHRINFOZ
+CODE_SMELL
+csquid:S1135z"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHRINFOZ
+CODE_SMELL
+csquid:S1135n"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH†RINFOZ
+CODE_SMELL
+dsquid:S1135Œ"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH…RINFOZ
+CODE_SMELL
+csquid:S1135h"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH‹RINFOZ
+CODE_SMELL
+_squid:S1172"-Remove this unused method parameter "driver".(‘›ñúüÿÿÿÿHRMAJORZ
+CODE_SMELL
+csquid:S1135t"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿHƒRINFOZ
+CODE_SMELL
+_squid:S1172"-Remove this unused method parameter "driver".(Üñ˜ùÿÿÿÿH‚RMAJORZ
+CODE_SMELL
+¶squid:S1186K"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Û‹‡ÿÿÿÿÿHRCRITICALZ
+CODE_SMELL
+csquid:S1135b"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH‰RINFOZ
+CODE_SMELL
+dsquid:S1135€"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH‡RINFOZ
+CODE_SMELL
+dsquid:S1135†"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿH•RINFOZ
+CODE_SMELL
+Xsquid:S11489"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿHˆRMINORZVULNERABILITY

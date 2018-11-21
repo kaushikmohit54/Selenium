@@ -1,0 +1,11 @@
+
+‚squid:S4144"UUpdate this method so that its implementation is not identical to "setUP" on line 12.(å«áHRMAJORZ
+CODE_SMELL
+ysquid:S00112A"FDefine and throw a dedicated exception instead of using a generic one.(Ôæ›şÿÿÿÿHRMAJORZ
+CODE_SMELL
+ysquid:S00112F"FDefine and throw a dedicated exception instead of using a generic one.(ÉÈà·ıÿÿÿÿHRMAJORZ
+CODE_SMELL
+ysquid:S00112K"FDefine and throw a dedicated exception instead of using a generic one.(Û¢ÍúıÿÿÿÿH‘RMAJORZ
+CODE_SMELL
+squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(…¨àİùÿÿÿÿH’RMINORZ
+CODE_SMELL

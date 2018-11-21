@@ -1,0 +1,51 @@
+
+fsquid:S2696`"6Make the enclosing method "static" or remove this set.(Î°¸óH¤%RCRITICALZ
+CODE_SMELL
+csquid:S1444,".Make this "public static e_driver" field final(ç˜ÛûÿÿÿÿH‰%RMINORZVULNERABILITY
+ksquid:S26969"6Make the enclosing method "static" or remove this set.(‡×Ü½øÿÿÿÿHŒ%RCRITICALZ
+CODE_SMELL
+Nsquid:S3010I"!Remove this assignment of "prop".(âÅäH‘%RMAJORZ
+CODE_SMELL
+Osquid:S2386I"Make member "prop" "protected".(âÅäH%RMINORZVULNERABILITY
+squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ø—Ï¿øÿÿÿÿHŠ%RMINORZ
+CODE_SMELL
+fsquid:S2696k"6Make the enclosing method "static" or remove this set.(ŸéêâH•%RCRITICALZ
+CODE_SMELL
+csquid:S1444-"3Make this "public static eventListener" field final(™ÅéH—%RMINORZVULNERABILITY
+esquid:S1313g"0Make this IP "10.50.88.59" address configurable.(‹õ¬ÄÿÿÿÿÿHˆ%RMINORZVULNERABILITY
+³%squid:RedundantThrowsDeclarationCheck6"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(´¸é¡H%RMINORZ
+CODE_SMELL
+ksquid:S2696g"6Make the enclosing method "static" or remove this set.(‹õ¬ÄÿÿÿÿÿHš%RCRITICALZ
+CODE_SMELL
+"squid:ClassVariableVisibilityCheck."RMake logger a static final constant or non-public and provide accessors if needed.(ÏõË‰ÿÿÿÿÿH„%RMINORZVULNERABILITY
+asquid:S1444.",Make this "public static logger" field final(ÏõË‰ÿÿÿÿÿH‡%RMINORZVULNERABILITY
+Ÿ"squid:ClassVariableVisibilityCheck0"XMake htmlReporter a static final constant or non-public and provide accessors if needed.(È£ÿH%RMINORZVULNERABILITY
+esquid:S2696y"6Make the enclosing method "static" or remove this set.(Ÿˆ¯LH˜%RCRITICALZ
+CODE_SMELL
+Psquid:S3010M"#Remove this assignment of "logger".(óÏ§H…%RMAJORZ
+CODE_SMELL
+Xsquid:S1148R"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH%RMINORZVULNERABILITY
+fsquid:S2696w"6Make the enclosing method "static" or remove this set.(‰ãç¡H›%RCRITICALZ
+CODE_SMELL
+Xsquid:S1148U"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿH¥%RMINORZVULNERABILITY
+asquid:S14441",Make this "public static extent" field final(ÆÍ¿…øÿÿÿÿH¦%RMINORZVULNERABILITY
+ksquid:S2696u"6Make the enclosing method "static" or remove this set.(Ü²ì·úÿÿÿÿH%RCRITICALZ
+CODE_SMELL
+]squid:S1444/"-Make this "public static logger1" field final(¸ñ±¬H†%RMINORZVULNERABILITY
+ "squid:ClassVariableVisibilityCheck-"YMake eventListener a static final constant or non-public and provide accessors if needed.(™ÅéHœ%RMINORZVULNERABILITY
+_squid:S1444+"*Make this "public static prop" field final(¶İ»şÿÿÿÿHŸ%RMINORZVULNERABILITY
+ "squid:ClassVariableVisibilityCheck,"TMake e_driver a static final constant or non-public and provide accessors if needed.(ç˜ÛûÿÿÿÿH’%RMINORZVULNERABILITY
+asquid:S1444*",Make this "public static driver" field final(âØëÁıÿÿÿÿH”%RMINORZVULNERABILITY
+œ"squid:ClassVariableVisibilityCheck+"PMake prop a static final constant or non-public and provide accessors if needed.(¶İ»şÿÿÿÿH‹%RMINORZVULNERABILITY
+š"squid:ClassVariableVisibilityCheck/"SMake logger1 a static final constant or non-public and provide accessors if needed.(¸ñ±¬H¢%RMINORZVULNERABILITY
+bsquid:S14440"2Make this "public static htmlReporter" field final(È£ÿH™%RMINORZVULNERABILITY
+fsquid:S2696r"6Make the enclosing method "static" or remove this set.(äà£ÕH¡%RCRITICALZ
+CODE_SMELL
+"squid:ClassVariableVisibilityCheck1"RMake extent a static final constant or non-public and provide accessors if needed.(ÆÍ¿…øÿÿÿÿH£%RMINORZVULNERABILITY
+…squid:S3008,"SRename this field "e_driver" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ç˜ÛûÿÿÿÿH–%RMINORZ
+CODE_SMELL
+fsquid:S2696d"6Make the enclosing method "static" or remove this set.(Âéã±H %RCRITICALZ
+CODE_SMELL
+"squid:ClassVariableVisibilityCheck*"RMake driver a static final constant or non-public and provide accessors if needed.(âØëÁıÿÿÿÿH%RMINORZVULNERABILITY
+fsquid:S26968"6Make the enclosing method "static" or remove this set.(ÈŒ£H“%RCRITICALZ
+CODE_SMELL
