@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22953" started-at="2018-11-21T12:34:13Z" finished-at="2018-11-21T12:34:36Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22953" started-at="2018-11-21T12:34:13Z" finished-at="2018-11-21T12:34:36Z">
+      <class name="requirements.workerRegistration.RegisterNewWorkers">
+        <test-method status="PASS" signature="setup()[pri:0, instance:requirements.workerRegistration.RegisterNewWorkers@569cfc36]" name="setup" is-config="true" duration-ms="14598" started-at="2018-11-21T18:04:13Z" finished-at="2018-11-21T18:04:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="init()[pri:0, instance:requirements.workerRegistration.RegisterNewWorkers@569cfc36]" name="init" is-config="true" duration-ms="1" started-at="2018-11-21T18:04:28Z" finished-at="2018-11-21T18:04:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="login_crm()[pri:0, instance:requirements.workerRegistration.RegisterNewWorkers@569cfc36]" name="login_crm" duration-ms="6996" started-at="2018-11-21T18:04:28Z" finished-at="2018-11-21T18:04:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login_crm -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:requirements.workerRegistration.RegisterNewWorkers@569cfc36]" name="quit" is-config="true" duration-ms="1307" started-at="2018-11-21T18:04:35Z" finished-at="2018-11-21T18:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- requirements.workerRegistration.RegisterNewWorkers -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
