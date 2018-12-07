@@ -1,0 +1,53 @@
+
+//for  how we can capture the screenshot of particular WebElement
+
+In this blog we are going to learn, how we can capture the screenshot of particular WebElement using Third party utility “aShot”
+aShot is third party web driver screenshot utility used for:
+
+Ø    Takes a screenshot of a WebElement on different platforms (i.e. desktop browsers, iOS Simulator Mobile Safari, Android Emulator Browser)
+Ø    Capturing Full Page Screenshots.
+Ø    Decorates screenshots
+Ø    Provides flexible screenshot comparison
+
+Please Visit aShot official page for more details.
+
+Below Steps we need to follow to use aShot in our Project.
+
+Ø    Download aShot Jar or Maven dependency using this link.
+
+Dependency that I am using for implementation.
+<!-- https://mvnrepository.com/artifact/ru.yandex.qatools.ashot/ashot -->
+<dependency>
+    <groupId>ru.yandex.qatools.ashot</groupId>
+    <artifactId>ashot</artifactId>
+    <version>1.5.3</version>
+</dependency>
+view rawAshotMavenDependency hosted with ❤ by GitHub
+
+
+Ø    Please refer below code snippet where i have captured the screenshot of google logo from its web-page.
+package practiceTest;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import ru.yandex.qatools.ashot.AShot;
+import ru.yandex.qatools.ashot.Screenshot;
+import ru.yandex.qatools.ashot.coordinates.WebDriverCoordsProvider;
+import javax.imageio.ImageIO;
+import java.io.File;
+
+public class Screenshot_Webelement
+{
+	public static void main(String args[]) throws Exception
+	{
+		System.setProperty("webdriver.chrome.driver","D://Chrome Driver 2.38//chromedriver_win32//chromedriver.exe");	
+		WebDriver driver = new ChromeDriver(); 
+		driver.get("http://www.google.com");
+		Thread.sleep(2000);
+		WebElement webElement = driver.findElement(By.xpath("//img[@id='hplogo']"));
+		Screenshot screenshot = new AShot().coordsProvider(new WebDriverCoordsProvider()).takeScreenshot(driver, webElement);
+		ImageIO.write(screenshot.getImage(),"PNG",new File(System.getProperty("user.dir") +"\\Images\\googleLogo.png"));
+		driver.close();
+	}

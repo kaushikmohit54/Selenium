@@ -3,11 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automation.practice.firebox_headlessBrowser">
+      <class name="automation.practice.GenerateScreenShotPDF">
         <methods>
-          <include name="hedlesstest"/>
+          <include name="configuration"/>
+          <include name="pdfScreesnshot"/>
         </methods>
-      </class> <!-- automation.practice.firebox_headlessBrowser -->
+      </class> <!-- automation.practice.GenerateScreenShotPDF -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
